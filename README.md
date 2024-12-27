@@ -9,6 +9,7 @@
 
   => Connecting the contract into metamask wallet,
      Deploying the contract into sepolia testnet using metamask wallet ,
+     also deploy to zksync sepolia testnet ,
      interacting wtih Deployed Contract.
 
 **Basic Solidity Memory,Storage, and Function**
