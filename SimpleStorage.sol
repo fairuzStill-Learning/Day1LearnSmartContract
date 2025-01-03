@@ -2,7 +2,6 @@
 pragma solidity 0.8.24; // solidity version
 
 contract SimpleStorage {
-    // MyNumber di identifikasi 0 jika tidak ada value
 
     uint256 MyNumberOnly; // bernilai 0
 
@@ -15,8 +14,6 @@ contract SimpleStorage {
     // // dynamic array
     Person[] public listOfPeople; // [] KOSONG
 
-     //mapping data transaksi yang ada.
-    //  output yang keluar akan memberikan nama akun pengguna dan address 4-3 huruf atau angka
     mapping (string => uint256) public nameToMyNumberOnly;
 
     function store(uint256 _MyNumber) public {
